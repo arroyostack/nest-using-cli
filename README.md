@@ -1,14 +1,21 @@
-<p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
-</p>
-
-[circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
-
+![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 
-## Description
+# NestJS REST API Tutorial
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+This repository contains the code and resources for the basic NestJS REST AP.
+
+## Topics
+
+- Setting up your development environment
+- Installing Nest CLI and creating a new NestJS project
+- Creating controllers, services, and modules in NestJS
+- Implementing CRUD operations for a resource
+- Handling HTTP requests and responses
+
+## Getting Started
+
+To get started with this tutorial, make sure you have Node.js and npm installed on your machine. You'll also need to install Nest CLI globally:
 
 ## Installation
 
