@@ -1,9 +1,9 @@
 ![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 
-# NestJS REST API Tutorial
+# NestJS REST API
 
-This repository contains the code and resources for the basic NestJS REST AP.
+This repository contains the code and resources for a basic NestJS REST API.
 
 ## Topics
 
