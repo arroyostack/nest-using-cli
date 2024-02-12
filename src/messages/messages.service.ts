@@ -1,14 +1,11 @@
+import { Injectable } from "@nestjs/common";
 import { MessageRepository } from "./messages.repository";
+import { INJECTABLE_WATERMARK } from "@nestjs/common/constants";
 
+@Injectable()
 export class MessagesService {
-    // This is temporary. We will fix this in the next chapter.
-    // Service is creating it own dependency. This is not good.
-    // Do not use this in a real app.
-    messageRepo: MessageRepository;
 
-    constructor() {
-        this.messageRepo = new MessageRepository();
-    }
+    constructor( public messageRepo: MessageRepository ) { }
 
     async findOne( id: string ) {
         return this.messageRepo.findOne( id );
